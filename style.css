@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.home{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home_div{
+    font: 0;
+}
+
+.home h1{
+    background-color: burlywood;
+    font-size: 2vw;
+    padding: 2%;
+}
+
+.nav{
+    padding: 1%;
+    background-color: rgb(240, 208, 181);
+
+}
+
+.nav h2{
+    display: inline-block;
+    font-size: 1vw;
+    margin: 0 0 0 1.5%;
+    padding: 1% 1% 1% 1%;
+    background-color: aliceblue;
+    border-radius: 1vw;
+    border: 2px solid burlywood;
+}
+
+
+.nav > a{
+    float: right;
+    font-size: 1vw;
+    padding: 0.75%;
+    background-color: aliceblue;
+    border: 2px solid burlywood;
+    border-radius: 1vw;
+
+}
+
+.left_side{
+    display: inline-block;
+    width: 45%;
+    margin: 5% auto;
+}
+
+.left_side img{
+    border-radius: 1vw;
+    border: 4px solid red;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.right_side{
+    border-radius: 0.75vw;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    outline: 2px solid blue;
+    display: inline-block;
+    width: 45%;
+    margin: 5% 2% 5% 5%;
+    padding: 0 0 0 0;
+    background-color: rgb(255, 218, 139);
+    
+}
+
+.right_side h2{
+    font-size: 2.5vw;
+    padding: 2%;
+    background-color:rgb(235, 137, 137);
+}
+
+.right_side p{
+    
+    font-size: 1vw;
+    background-color:rgb(241, 182, 142);
+    padding: 2%;
+}
+
+.right_side a{
+    display: block;
+    font-size: 1.5vw;
+    margin: 2.5%;
+    padding: 5% 10%;
+    background-color: rgb(255, 226, 98);
+}
